@@ -14,5 +14,6 @@
 <body>
   <!-- data yang sudah terkirim akan ditampilkan di halaman index.php -->
   <h1>selamat datang <?php echo $_POST["name"]; ?></h1>
+  <a href="metodepost.php">kembali</a>
 </body>
 <html>
