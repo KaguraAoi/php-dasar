@@ -10,5 +10,5 @@
   }
 
   echo tampilX(); // 20 (kalo diberi variabel global $x maka hasilnya 10)
-  echo $x; // 10
+  echo $x; // 10 / 20
 ?>
