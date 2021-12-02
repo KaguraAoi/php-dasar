@@ -12,6 +12,9 @@
   <title>post</title>
 </head>
 <body>
+  <!-- action: berarti data yang telah disubmit akan dikirim ke index.php dan otomatis akan beralih ke halaman tersebut -->
+  <!-- method-nya post supaya data yang dikirim tidak terlihat di url -->
+  <!-- atribut name digunakan sebagai pengenal agar data bisa terkirim -->
   <form action="index.php" method="post">
     <label>masukkan nama</label>
     <input type="text" name="name">
